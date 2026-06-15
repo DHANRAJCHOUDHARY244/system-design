@@ -18,6 +18,7 @@ Each day is published under `docs/day-XX/`. Every day folder contains focused to
 | 6 | Database Internals (Storage, Keys, Indexes, Transactions, ORM, Replication, Sharding) | [docs/day-06](./docs/day-06/) |
 | 7 | Caching Deep Dive (Patterns, Invalidation, TTL, Redis, Cache Problems) | [docs/day-07](./docs/day-07/) |
 | 8 | Message Queues Deep Dive (Models, Guarantees, Patterns, Kafka, SQS) | [docs/day-08](./docs/day-08/) |
+| 9 | Reliability & Fault Tolerance (Circuit Breaker, HA, SLO, DR) | [docs/day-09](./docs/day-09/) |
 
 ## Structure
 
@@ -104,4 +105,18 @@ system-design/
         ├── 10-retry-dlq-and-idempotency.md
         ├── 11-queue-patterns.md
         └── 12-tools-operations-and-tradeoffs.md
+    └── day-09/
+        ├── README.md
+        ├── 01-why-reliability.md
+        ├── 02-reliability-metrics.md
+        ├── 03-failure-modes-and-spof.md
+        ├── 04-redundancy-and-high-availability.md
+        ├── 05-timeouts.md
+        ├── 06-retries-and-backoff.md
+        ├── 07-circuit-breaker.md
+        ├── 08-bulkhead-pattern.md
+        ├── 09-graceful-degradation.md
+        ├── 10-failover-and-disaster-recovery.md
+        ├── 11-sli-slo-and-sla.md
+        └── 12-designing-for-failure.md
 ```
