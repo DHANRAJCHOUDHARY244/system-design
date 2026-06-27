@@ -20,6 +20,7 @@ Each day is published under `docs/day-XX/`. Every day folder contains focused to
 | 8 | Message Queues Deep Dive (Models, Guarantees, Patterns, Kafka, SQS) | [docs/day-08](./docs/day-08/) |
 | 9 | Reliability & Fault Tolerance (Circuit Breaker, HA, SLO, DR) | [docs/day-09](./docs/day-09/) |
 | 10 | API Gateway & Service Discovery (Routing, Auth, Mesh) | [docs/day-10](./docs/day-10/) |
+| 11 | Observability Deep Dive (Logs, Metrics, Traces, SLO Alerting) | [docs/day-11](./docs/day-11/) |
 
 ## Structure
 
@@ -134,4 +135,18 @@ system-design/
         ├── 10-health-checks.md
         ├── 11-service-mesh-introduction.md
         └── 12-real-world-flow.md
+    └── day-11/
+        ├── README.md
+        ├── 01-why-observability.md
+        ├── 02-monitoring-vs-observability.md
+        ├── 03-three-pillars.md
+        ├── 04-structured-logging.md
+        ├── 05-metrics-red-and-use.md
+        ├── 06-distributed-tracing.md
+        ├── 07-instrumentation.md
+        ├── 08-dashboards-and-alerting.md
+        ├── 09-slo-alerting-and-error-budgets.md
+        ├── 10-log-aggregation.md
+        ├── 11-observability-in-microservices.md
+        └── 12-checklist-and-incident-walkthrough.md
 ```

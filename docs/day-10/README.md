@@ -38,4 +38,5 @@ Read 1 → 12 in sequence. Topics 1–2 set context; 3–7 cover the gateway; 8�
 - [Day 4: Website Visit Scenario](../day-04/01-visit-website-scenario.md)
 - [Day 8: Sync vs Async](../day-08/03-sync-vs-async-communication.md)
 - [Day 9: Reliability](../day-09/README.md)
+- [Day 11: Observability](../day-11/README.md)
 - [Day 2: API Design](../day-02/09-api-design.md)
